@@ -13,5 +13,7 @@
     @apply cursor-pointer;
     @apply md:hover:transform;
     @apply md:hover:scale-110;
+    @apply md:duration-150;
   }
 }
+

@@ -8,10 +8,10 @@ module.exports = {
       colors: {
         brand: {
           background: "#0a192f",
-          highlighted:"#561BE3",
-          whiteTitleText:"#ccd6f6",
-          whiteSubtitleText:"#8892b0"
-
+          highlighted: "#561BE3",
+          whiteTitleText: "#ccd6f6",
+          whiteSubtitleText: "#8892b0",
+          shadow: "#040c16",
         },
       },
     },

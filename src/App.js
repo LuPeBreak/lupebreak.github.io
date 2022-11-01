@@ -1,6 +1,7 @@
 import About from "./components/About.jsx";
 import Home from "./components/Home.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Techs from "./components/Techs.jsx";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Home/>
       <About/>
+      <Techs/>
     </div>
   );
 }
