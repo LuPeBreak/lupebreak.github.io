@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar.jsx";
 
 
 function App() {
   return (
-    <div className="App bg-blue-500">
-      <h1 className="font-bold text-4xl">Hello world</h1>
+    <div className="App h-screen bg-brand-background">
+      <Navbar />
     </div>
   );
 }
