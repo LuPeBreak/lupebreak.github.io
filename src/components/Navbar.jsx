@@ -10,12 +10,12 @@ export default function Navbar() {
 
   return (
     <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-brand-background text-gray-300">
-      {/* logo */}
+      
       <div>
         <img src={Logo} alt="imagem de logo" className="w-[150px]" />
       </div>
 
-      {/* desktop menu */}
+      
       <div>
         <ul className="hidden md:flex">
           <li>Home</li>
@@ -26,11 +26,11 @@ export default function Navbar() {
         </ul>
       </div>
 
-      {/* burguer menu icon */}
+      
       <div onClick={handleNavShow} className="md:hidden z-10">
-        {!navShow ? <FaBars /> : <FaTimes />}
+        {!navShow ? <FaBars size={25} /> : <FaTimes size={25} />}
       </div>
-      {/* mobile menu */}
+      
       <ul
         className={
           !navShow
@@ -44,7 +44,7 @@ export default function Navbar() {
         <li className="py-6 text-4xl">Projetos</li>
         <li className="py-6 text-4xl">Contato</li>
       </ul>
-      {/* social icons */}
+      
       <div className=" hidden md:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0073B0]">
