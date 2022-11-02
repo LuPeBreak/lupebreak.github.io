@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -10,12 +16,10 @@ export default function Navbar() {
 
   return (
     <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-brand-background text-gray-300">
-      
       <div>
-        <img src={Logo} alt="imagem de logo" className="w-[150px]" />
+        <img src={Logo} alt="imagem de logo" className="w-[180px]" />
       </div>
 
-      
       <div>
         <ul className="hidden md:flex">
           <li>Home</li>
@@ -26,11 +30,10 @@ export default function Navbar() {
         </ul>
       </div>
 
-      
       <div onClick={handleNavShow} className="md:hidden z-10">
         {!navShow ? <FaBars size={25} /> : <FaTimes size={25} />}
       </div>
-      
+
       <ul
         className={
           !navShow
@@ -44,10 +47,10 @@ export default function Navbar() {
         <li className="py-6 text-4xl">Projetos</li>
         <li className="py-6 text-4xl">Contato</li>
       </ul>
-      
-      <div className=" hidden md:flex fixed flex-col top-[35%] left-0">
+
+      <div className=" hidden md:flex fixed flex-col top-[35%] left-0 ">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0073B0]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0] duration-300 bg-[#0073B0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/luisfelipedepaulacosta/"
@@ -55,7 +58,8 @@ export default function Navbar() {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0D1117]">
+
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0] duration-300 bg-[#0D1117]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/LuPeBreak"
@@ -63,15 +67,17 @@ export default function Navbar() {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-500">
+
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0] duration-300 bg-green-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="mailto:lfbmrj15@gmail.com"
+              href="https://wa.me/5524981694833"
             >
-              E-mail <HiOutlineMail size={30} />
+              Whatsapp <FaWhatsapp size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500">
+
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0] duration-300 bg-gray-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://drive.google.com/file/d/1TpvByF7YJkf-cre05aKNjR-aa_qqUHaY/view?usp=share_link"
@@ -79,7 +85,15 @@ export default function Navbar() {
               Curriculo <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-          
+
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0] duration-300 bg-[#C5221F]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="mailto:lfbmrj15@gmail.com"
+            >
+              E-mail <HiOutlineMail size={30} />
+            </a>
+          </li>
         </ul>
       </div>
     </div>

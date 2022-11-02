@@ -14,6 +14,24 @@ module.exports = {
           shadow: "#040c16",
         },
       },
+      animation: {
+        focus: "focus 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+      },
+      keyframes: {
+        focus: {
+          "0%": {
+            letterSpacing: "-0.5em",
+            transform: "translateZ(-600px)",
+            filter: "blur(12px)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateZ(0)",
+            filter: "blur(0px)",
+            opacity: "1",
+          },
+        },
+      },
     },
   },
   plugins: [],
