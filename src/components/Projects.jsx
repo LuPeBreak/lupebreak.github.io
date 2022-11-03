@@ -1,6 +1,6 @@
 import React from "react";
 import SiteBarraMansa from "../assets/site-barra-mansa.PNG";
-import SitePortalTransparencia from "../assets/site-barra-mansa.PNG";
+import SitePortalTransparencia from "../assets/site-portal-transaparencia-barra-mansa.PNG";
 import SiteFrutaEFruto from "../assets/site-fruta-e-fruto.PNG";
 import SiteFlexTurismo from "../assets/site-flex-turismo.PNG";
 import ProjectCard from "./ProjectCard.jsx";
