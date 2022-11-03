@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 // import profilePic from "../assets/profile-pic.png";
+import { Link } from "react-scroll";
 
 export default function Home() {
   return (
@@ -22,10 +23,12 @@ export default function Home() {
         </p>
         <div>
           <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-brand-highlighted hover:border-brand-highlighted duration-300">
-            Ver Projetos{" "}
-            <span className="group-hover:rotate-90 group-hover:mt-[-10px]  duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
+            <Link offset={-50} className="flex justify-center items-center" to="projects" smooth={true} duration={500}>
+              Ver Projetos
+              <span className="group-hover:rotate-90 group-hover:mt-[-10px]  duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </Link>
           </button>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ProjectCard({ title,img, link, codigo }) {
+export default function ProjectCard({ title, img, link, codigo }) {
   return (
     <div
       style={{ backgroundImage: `url(${img})` }}
@@ -13,7 +13,7 @@ export default function ProjectCard({ title,img, link, codigo }) {
 
         <div className="pt-8 text-center">
           <a href={link}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:animate-pulse">
+            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg md:hover:animate-pulse">
               Link
             </button>
           </a>
@@ -21,7 +21,7 @@ export default function ProjectCard({ title,img, link, codigo }) {
             ""
           ) : (
             <a href={codigo}>
-              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:animate-pulse ">
+              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg md:hover:animate-pulse ">
                 Codigo
               </button>
             </a>

@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-brand-background flex justify-center items-center p-4"
+      className="w-full h-screen bg-brand-background flex justify-center items-center p-8 my-20"
     >
       <form method="POST" action="https://getform.io/f/fc0877f5-65ed-4328-9e2f-ff6132b59971" className="flex flex-col max-w-[600px] w-full">
         <div className="pb-8">

@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   const [navShow, setNavShow] = useState(false);
@@ -22,11 +23,31 @@ export default function Navbar() {
 
       <div>
         <ul className="hidden md:flex">
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Techs</li>
-          <li>Projetos</li>
-          <li>Contato</li>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              Sobre
+            </Link>
+          </li>
+          <li>
+            <Link to="techs" offset={-100} smooth={true} duration={500}>
+              Techs
+            </Link>
+          </li>
+          <li>
+            <Link to="projects" offset={-50} smooth={true} duration={500}>
+              Projetos
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" offset={-50} smooth={true} duration={500}>
+              Contato
+            </Link>
+          </li>
         </ul>
       </div>
 
@@ -41,11 +62,42 @@ export default function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-brand-background flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">Sobre</li>
-        <li className="py-6 text-4xl">Techs</li>
-        <li className="py-6 text-4xl">Projetos</li>
-        <li className="py-6 text-4xl">Contato</li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleNavShow} offset={50} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleNavShow} offset={70} to="about" smooth={true} duration={500}>
+            Sobre
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleNavShow} offset={-80} to="techs" smooth={true} duration={500}>
+            Techs
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+          offset={-80}
+            onClick={handleNavShow}
+            to="projects"
+            smooth={true}
+            duration={500}
+          >
+            Projetos
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleNavShow}
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
+            Contato
+          </Link>
+        </li>
       </ul>
 
       <div className=" hidden md:flex fixed flex-col top-[35%] left-0 ">
