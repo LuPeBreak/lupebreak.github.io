@@ -22,7 +22,7 @@ export default function Home() {
           experiencia e me aprimorar como Desenvolvedor.
         </p>
         <div>
-          <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-brand-highlighted hover:border-brand-highlighted duration-300">
+          <button className="rounded-sm group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-brand-highlighted hover:border-brand-highlighted duration-300">
             <Link offset={-50} className="flex justify-center items-center" to="projects" smooth={true} duration={500}>
               Ver Projetos
               <span className="group-hover:rotate-90 group-hover:mt-[-10px]  duration-300">

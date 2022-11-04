@@ -30,24 +30,24 @@ export default function Contact() {
         </div>
 
         <input
-          className="bg-brand-whiteTitleText p-2"
+          className="bg-brand-whiteTitleText p-2 rounded-md"
           type="text"
           placeholder="Nome"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-brand-whiteTitleText"
+          className="my-4 p-2 bg-brand-whiteTitleText rounded-md"
           type="email"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-brand-whiteTitleText p-2"
+          className="bg-brand-whiteTitleText p-2 rounded-md"
           name="message"
           rows="10"
           placeholder="Mensagem"
         />
-        <button className="text-white border-2 hover:bg-brand-highlighted hover:border-brand-highlighted px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="shadow-brand-cardBg  shadow-xl rounded-sm text-white border-2 hover:bg-brand-highlighted hover:border-brand-highlighted px-4 py-3 my-8 mx-auto flex items-center">
           Vamos Trabalhar juntos
         </button>
       </form>
