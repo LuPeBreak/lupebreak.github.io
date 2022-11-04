@@ -9,10 +9,14 @@ import ReactLogo from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
 import { HiOutlineLightningBolt } from "react-icons/hi";
+import TechCard from "./TechCard.jsx";
 
 export default function Techs() {
   return (
-    <div name="techs" className="w-full h-screen bg-brand-background text-gray-300">
+    <div
+      name="techs"
+      className="w-full h-screen bg-brand-background text-gray-300"
+    >
       <div className=" max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full ">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-brand-highlighted  ">
@@ -25,46 +29,22 @@ export default function Techs() {
         </div>
 
         {/* techs */}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="p-4 shadow-md shadow-brand-shadow hover:scale-110 duration-500">
-            <img src={ReactLogo} alt="logo react" className="w-20 mx-auto" />
-            <p className="mt-4 mb-2 uppercase">React</p>
-          </div>
+        <div className="w-full  grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+          <TechCard img={ReactLogo} title="React" />
 
-          <div className="p-4 shadow-md shadow-brand-shadow hover:scale-110 duration-500">
-            <img src={HTML} alt="logo html" className="w-20 mx-auto" />
-            <p className="mt-4 mb-2 uppercase">HTML</p>
-          </div>
+          <TechCard img={HTML} title="Html" />
 
-          <div className="p-4 shadow-md shadow-brand-shadow hover:scale-110 duration-500">
-            <img src={CSS} alt="logo CSS" className="w-20 mx-auto" />
-            <p className="mt-4 mb-2 uppercase">CSS</p>
-          </div>
+          <TechCard img={CSS} title="Tailwind" />
 
-          <div className="p-4 shadow-md shadow-brand-shadow hover:scale-110 duration-500">
-            <img src={Javascript} alt="logo Javascript" className="w-20 mx-auto" />
-            <p className="mt-4 mb-2 uppercase">Javascript</p>
-          </div>
+          <TechCard img={Javascript} title="Javascript" />
 
-          <div className="p-4 shadow-md shadow-brand-shadow hover:scale-110 duration-500">
-            <img src={Tailwind} alt="logo Tailwind" className="w-20 mx-auto" />
-            <p className="mt-4 mb-2 uppercase">Tailwind</p>
-          </div>
+          <TechCard img={Tailwind} title="Tailwind" />
 
-          <div className="p-4 shadow-md shadow-brand-shadow hover:scale-110 duration-500">
-            <img src={Node} alt="logo Node" className="w-20 mx-auto" />
-            <p className="mt-4 mb-2 uppercase">Node</p>
-          </div>
+          <TechCard img={Node} title="Node" />
 
-          <div className="p-4 shadow-md shadow-brand-shadow hover:scale-110 duration-500">
-            <img src={Mongo} alt="logo Mongo" className="w-20 mx-auto" />
-            <p className="mt-4 mb-2 uppercase">Mongo</p>
-          </div>
+          <TechCard img={Mongo} title="Mongo" />
 
-          <div className="p-4 shadow-md shadow-brand-shadow hover:scale-110 duration-500">
-            <img src={Github} alt="logo Github" className="w-20 mx-auto" />
-            <p className="mt-4 mb-2 uppercase">Github</p>
-          </div>
+          <TechCard img={Github} title="Github" />
         </div>
       </div>
     </div>

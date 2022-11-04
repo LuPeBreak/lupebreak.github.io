@@ -12,6 +12,7 @@ module.exports = {
           whiteTitleText: "#ccd6f6",
           whiteSubtitleText: "#8892b0",
           shadow: "#040c16",
+          cardBg:"#5418E240"
         },
       },
       animation: {
