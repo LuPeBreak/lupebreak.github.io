@@ -18,13 +18,15 @@ export default function Navbar() {
   return (
     <div className="z-10 fixed w-full h-20 flex justify-between items-center px-4 bg-brand-background text-gray-300">
       <div>
-        <img src={Logo} alt="imagem de logo" className="w-[180px]" />
+        <Link to="home" offset={10} smooth={true} duration={500}>
+          <img src={Logo} alt="imagem de logo" className="w-[180px]" />
+        </Link>
       </div>
 
       <div>
         <ul className="hidden md:flex">
           <li>
-            <Link to="home" offset={50} smooth={true} duration={500}>
+            <Link to="home" offset={10} smooth={true} duration={500}>
               Home
             </Link>
           </li>
@@ -68,18 +70,30 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleNavShow} offset={70} to="about" smooth={true} duration={500}>
+          <Link
+            onClick={handleNavShow}
+            offset={70}
+            to="about"
+            smooth={true}
+            duration={500}
+          >
             Sobre
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleNavShow} offset={-80} to="techs" smooth={true} duration={500}>
+          <Link
+            onClick={handleNavShow}
+            offset={-80}
+            to="techs"
+            smooth={true}
+            duration={500}
+          >
             Techs
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link
-          offset={-80}
+            offset={-80}
             onClick={handleNavShow}
             to="projects"
             smooth={true}

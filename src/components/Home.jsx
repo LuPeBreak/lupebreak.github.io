@@ -11,7 +11,7 @@ export default function Home() {
         <div
           id="blobImg"
           style={{ backgroundImage: `url(${blob})` }}
-          className="mt-[4rem]  lg:mt-16 sm:mb-4 py-8 bg-[length:550px_260px] bg-no-repeat bg-center  h-[300px] sm:h-[700px]  flex items-center justify-center"
+          className="mt-[4rem]  lg:mt-20 sm:mb-4 py-8 lg:bg-[length:700px_280px] bg-[length:500px_260px] bg-no-repeat bg-center  h-[300px] sm:h-[700px]  flex items-center justify-center"
         >
           <img
             src={profilePic}
