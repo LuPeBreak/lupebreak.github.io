@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-brand-background text-gray-300"
+      className="w-full h-fit sm:h-screen my-6 bg-brand-background text-gray-300"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full  grid grid-cols-2 gap-8">

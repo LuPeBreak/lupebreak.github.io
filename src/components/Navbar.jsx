@@ -39,7 +39,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="projects" offset={-50} smooth={true} duration={500}>
+            <Link to="projects" offset={-70} smooth={true} duration={500}>
               Projetos
             </Link>
           </li>
@@ -63,7 +63,7 @@ export default function Navbar() {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleNavShow} offset={50} to="home" smooth={true} duration={500}>
+          <Link onClick={handleNavShow} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>

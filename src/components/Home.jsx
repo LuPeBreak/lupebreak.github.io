@@ -6,12 +6,12 @@ import blob from "../assets/blob.svg";
 
 export default function Home() {
   return (
-    <div name="home" className="w-full h-screen bg-brand-background mb-4 sm:mb-0">
-      <div className=" max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+    <div name="home" className="h-fit sm:h-screen mb-6 w-full bg-brand-background">
+      <div className=" max-w-[1000px] mx-auto px-4 flex flex-col justify-center h-full">
         <div
           id="blobImg"
           style={{ backgroundImage: `url(${blob})` }}
-          className="mt-[4rem] sm:mt-[15rem] lg:mt-[10rem] sm:mb-4 py-8 bg-[length:500px_250px] sm:bg-[length:700px_300px] bg-no-repeat bg-center  h-[300px] sm:h-[700px]  flex items-center justify-center"
+          className="mt-[4rem]  lg:mt-16 sm:mb-4 py-8 bg-[length:550px_260px] bg-no-repeat bg-center  h-[300px] sm:h-[700px]  flex items-center justify-center"
         >
           <img
             src={profilePic}
