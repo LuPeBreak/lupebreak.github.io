@@ -16,7 +16,7 @@ export default function Navbar() {
   const handleNavShow = () => setNavShow(!navShow);
 
   return (
-    <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-brand-background text-gray-300">
+    <div className="z-10 fixed w-full h-20 flex justify-between items-center px-4 bg-brand-background text-gray-300">
       <div>
         <img src={Logo} alt="imagem de logo" className="w-[180px]" />
       </div>
@@ -24,7 +24,7 @@ export default function Navbar() {
       <div>
         <ul className="hidden md:flex">
           <li>
-            <Link to="home" smooth={true} duration={500}>
+            <Link to="home" offset={50} smooth={true} duration={500}>
               Home
             </Link>
           </li>
@@ -51,7 +51,7 @@ export default function Navbar() {
         </ul>
       </div>
 
-      <div onClick={handleNavShow} className="md:hidden z-10">
+      <div onClick={handleNavShow} className="md:hidden z-20">
         {!navShow ? <FaBars size={25} /> : <FaTimes size={25} />}
       </div>
 
@@ -59,7 +59,7 @@ export default function Navbar() {
         className={
           !navShow
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-brand-background flex flex-col justify-center items-center"
+            : "z-10 absolute top-0 left-0 w-full h-screen bg-brand-background flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -100,7 +100,7 @@ export default function Navbar() {
         </li>
       </ul>
 
-      <div className=" hidden md:flex fixed flex-col top-[35%] left-0 ">
+      <div className="z-10 hidden md:flex fixed flex-col top-[35%] left-0 ">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0] duration-300 bg-[#0073B0]">
             <a

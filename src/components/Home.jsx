@@ -1,17 +1,29 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-// import profilePic from "../assets/profile-pic.png";
+import profilePic from "../assets/profile-pic.png";
 import { Link } from "react-scroll";
+import blob from "../assets/blob.svg";
 
 export default function Home() {
   return (
-    <div name="home" className="w-full h-screen bg-brand-background">
+    <div name="home" className="w-full h-screen bg-brand-background mb-4 sm:mb-0">
       <div className=" max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+        <div
+          id="blobImg"
+          style={{ backgroundImage: `url(${blob})` }}
+          className="mt-[4rem] sm:mt-[15rem] lg:mt-[10rem] sm:mb-4 py-8 bg-[length:500px_250px] sm:bg-[length:700px_300px] bg-no-repeat bg-center  h-[300px] sm:h-[700px]  flex items-center justify-center"
+        >
+          <img
+            src={profilePic}
+            alt=" foto de perfil"
+            className="w-[150px] mx-auto my-8"
+          />
+        </div>
         <p className="text-brand-highlighted">Ola, meu nome é</p>
-        <h1 className="text-4xl sm:text-6xl font-bold text-brand-whiteTitleText md:animate-focus">
+        <h1 className="text-4xl md:text-6xl font-bold text-brand-whiteTitleText md:animate-focus">
           Luis Felipe de Paula Costa
         </h1>
-        <h2 className="text-4xl sm:text-6xl font-bold text-brand-whiteSubtitleText md:animate-pulse">
+        <h2 className="text-4xl md:text-6xl font-bold text-brand-whiteSubtitleText md:animate-pulse">
           Dev Full Stack
         </h2>
         <p className="text-brand-whiteSubtitleText py-4 max-w-[700px] text-justify">
@@ -23,7 +35,13 @@ export default function Home() {
         </p>
         <div>
           <button className="rounded-sm group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-brand-highlighted hover:border-brand-highlighted duration-300">
-            <Link offset={-50} className="flex justify-center items-center" to="projects" smooth={true} duration={500}>
+            <Link
+              offset={-50}
+              className="flex justify-center items-center"
+              to="projects"
+              smooth={true}
+              duration={500}
+            >
               Ver Projetos
               <span className="group-hover:rotate-90 group-hover:mt-[-10px]  duration-300">
                 <HiArrowNarrowRight className="ml-3" />

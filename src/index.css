@@ -28,6 +28,10 @@
   background-image: linear-gradient(
     to right,
     rgba(112,157,255,0.8),
-    hsla(242,74%,61%,0.8)
+    rgba(86,27,227,0.8)
   )!important;
+}
+
+#blobImg{
+  filter: drop-shadow(2px 8px 10px #4e28a8);
 }

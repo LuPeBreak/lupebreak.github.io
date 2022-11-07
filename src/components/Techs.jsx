@@ -15,7 +15,7 @@ export default function Techs() {
   return (
     <div
       name="techs"
-      className="w-full  h-fit sm:h-screen mb-[200px] sm:mb-0  bg-brand-background text-gray-300 "
+      className="w-full h-fit sm:h-screen mb-16 sm:mb-0  bg-brand-background text-gray-300 "
     >
       <div className=" max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full ">
         <div>
@@ -24,7 +24,7 @@ export default function Techs() {
           </p>
           <p className="py-4 font-semibold">
             <HiOutlineLightningBolt className="inline" /> Essas sao algumas das
-            tecnologias que ja estudei, experimentei e gostei !
+            tecnologias que ja estudei, experimentei e gostei!
           </p>
         </div>
 
