@@ -6,7 +6,7 @@ export default function Contact() {
       name="contact"
       className="w-full h-fit sm:h-screen my-6 bg-brand-background flex justify-center items-center"
     >
-      <form method="POST" action="https://getform.io/f/fc0877f5-65ed-4328-9e2f-ff6132b59971" className="px-4 flex flex-col max-w-[600px] w-full">
+      <form method="POST" action="https://getform.io/f/dd53d163-f246-4e30-8815-081dda452cd3" className="px-4 flex flex-col max-w-[600px] w-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-brand-highlighted text-gray-300">
             Contato
