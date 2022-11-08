@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.70827297.css",
-    "main.js": "/static/js/main.f5889a88.js",
+    "main.js": "/static/js/main.2a2fd794.js",
     "static/media/site-fruta-e-fruto.PNG": "/static/media/site-fruta-e-fruto.284480f14997c1bc3073.PNG",
     "static/media/site-portal-transaparencia-barra-mansa.PNG": "/static/media/site-portal-transaparencia-barra-mansa.1749ee71da013a9ee98e.PNG",
     "static/media/site-barra-mansa.PNG": "/static/media/site-barra-mansa.670ec57c18b167dcd5c8.PNG",
@@ -19,10 +19,10 @@
     "static/media/blob.svg": "/static/media/blob.2b997e64300771d58776837beae373fd.svg",
     "index.html": "/index.html",
     "main.70827297.css.map": "/static/css/main.70827297.css.map",
-    "main.f5889a88.js.map": "/static/js/main.f5889a88.js.map"
+    "main.2a2fd794.js.map": "/static/js/main.2a2fd794.js.map"
   },
   "entrypoints": [
     "static/css/main.70827297.css",
-    "static/js/main.f5889a88.js"
+    "static/js/main.2a2fd794.js"
   ]
 }
