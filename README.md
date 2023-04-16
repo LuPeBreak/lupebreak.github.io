@@ -1,25 +1,35 @@
-# LuPeBreak.github.io
+<h1 align="center"> Coffe Delivery </h1>
+
+<p align="center">
+  Voce pode encontrar demo do projeto no github pages nesse <a href="https://lupebreak.github.io">Link</a>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="Foto da pagina do portfolio de LuPeBreak" src=".github/project.png" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- Javascript
+- React
+- TailwindCSS
+- Git e Github
+
+## 💻 Projeto
 
 Esse é um pequeno projeto de um site portfolio utilizando ReactJs e TailwindCSS.
 
 Fique a vontade para reutilizar o projeto.
 
-## Como iniciar o projeto localmente
+---
 
-Para rodar o projeto localmente na sua maquina voce pode rodar no diretorio raiz do projeto o comando
-
-### `npm start`
-
-Abra [http://localhost:3000](http://localhost:3000) para ver no seu navegador.
-
-### Deploy
-
-Para buildar o projeto rode o comando
-
-### `npm run build`
-
-O comando ira criar uma pasta build onde deixara os arquivos otimizados e minificados prontos para serem deployados.
-
-Voce pode ver mais detalhadamente: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-Caso tenha algum erro ao minificar os arquivos: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ♥ by [LuPeBreak](https://github.com/LuPeBreak/)!

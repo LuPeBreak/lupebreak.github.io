@@ -1,8 +1,11 @@
 import React from "react";
-import SiteBarraMansa from "../assets/site-barra-mansa.PNG";
-import SitePortalTransparencia from "../assets/site-portal-transaparencia-barra-mansa.PNG";
-import SiteFrutaEFruto from "../assets/site-fruta-e-fruto.PNG";
-import SiteFlexTurismo from "../assets/site-flex-turismo.PNG";
+import SiteBarraMansa from "../assets/site-barra-mansa.png";
+import SitePortalTransparencia from "../assets/site-portal-transaparencia-barra-mansa.png";
+import SiteFrutaEFruto from "../assets/site-fruta-e-fruto.png";
+import SiteFlexTurismo from "../assets/site-flex-turismo.png";
+import SiteCoffeeDelivery from "../assets/site-coffee-delivery.png";
+import SiteToDoList from "../assets/site-to-do-list.png";
+import SiteValidatedLogin from "../assets/site-react-validated-login.png";
 import ProjectCard from "./ProjectCard.jsx";
 
 export default function Projects() {
@@ -24,11 +27,13 @@ export default function Projects() {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           
+          <ProjectCard title={"Coffee Delivery"} img={SiteCoffeeDelivery} link={'https://lupebreak.github.io/coffee-delivery/'} codigo={'https://github.com/LuPeBreak/coffee-delivery'} />
           <ProjectCard title={"Site de Barra Mansa"} img={SiteBarraMansa} link={'https://www.barramansa.rj.gov.br/'}  />
-          <ProjectCard title={"Site Fruta e Fruto"} img={SiteFrutaEFruto} link={'https://lupebreak.github.io/Fruta-e-Fruto/'} codigo={'https://github.com/LuPeBreak/Fruta-e-Fruto'} />
           <ProjectCard title={"Portal da Transparencia"} img={SitePortalTransparencia} link={'https://portaltransparencia.barramansa.rj.gov.br/'} />
+          <ProjectCard title={"Site Fruta e Fruto"} img={SiteFrutaEFruto} link={'https://lupebreak.github.io/Fruta-e-Fruto/'} codigo={'https://github.com/LuPeBreak/Fruta-e-Fruto'} />
+          <ProjectCard title={"To Do List"} img={SiteToDoList} link={'https://lupebreak.github.io/To-Do-List-Ignite-challenge/'} codigo={'https://github.com/LuPeBreak/To-Do-List-Ignite-challenge'} />
           <ProjectCard title={"Site Flex Turismo"} img={SiteFlexTurismo} link={'https://lupebreak.github.io/flex-turismo/'} codigo={'https://github.com/LuPeBreak/flex-turismo'} />
-
+          <ProjectCard title={"React Validated Login"} img={SiteValidatedLogin} link={'https://lupebreak.github.io/react-validated-login-desafio-4/'} codigo={'https://github.com/LuPeBreak/react-validated-login-desafio-4'} />
           
         </div>
       </div>
