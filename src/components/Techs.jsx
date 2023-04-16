@@ -34,7 +34,7 @@ export default function Techs() {
 
           <TechCard img={HTML} title="Html" />
 
-          <TechCard img={CSS} title="Tailwind" />
+          <TechCard img={CSS} title="CSS" />
 
           <TechCard img={Javascript} title="Javascript" />
 
