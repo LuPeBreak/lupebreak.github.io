@@ -1,13 +1,13 @@
 import React from "react";
 
-import CSS from "../assets/css.png";
-import HTML from "../assets/html.png";
-import Github from "../assets/github.png";
-import Javascript from "../assets/javascript.png";
-import Node from "../assets/node.png";
-import ReactLogo from "../assets/react.png";
-import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
+import CSS from "../assets/techs/css.png";
+import HTML from "../assets/techs/html.png";
+import Github from "../assets/techs/github.png";
+import Javascript from "../assets/techs/javascript.png";
+import Node from "../assets/techs/node.png";
+import ReactLogo from "../assets/techs/react.png";
+import Tailwind from "../assets/techs/tailwind.png";
+import Mongo from "../assets/techs/mongo.png";
 import { HiOutlineLightningBolt } from "react-icons/hi";
 import TechCard from "./TechCard.jsx";
 

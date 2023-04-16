@@ -1,11 +1,11 @@
 import React from "react";
-import SiteBarraMansa from "../assets/site-barra-mansa.png";
-import SitePortalTransparencia from "../assets/site-portal-transaparencia-barra-mansa.png";
-import SiteFrutaEFruto from "../assets/site-fruta-e-fruto.png";
-import SiteFlexTurismo from "../assets/site-flex-turismo.png";
-import SiteCoffeeDelivery from "../assets/site-coffee-delivery.png";
-import SiteToDoList from "../assets/site-to-do-list.png";
-import SiteValidatedLogin from "../assets/site-react-validated-login.png";
+import SiteBarraMansa from "../assets/projects/site-barra-mansa.png";
+import SitePortalTransparencia from "../assets/projects/site-portal-transaparencia-barra-mansa.png";
+import SiteFrutaEFruto from "../assets/projects/site-fruta-e-fruto.png";
+import SiteFlexTurismo from "../assets/projects/site-flex-turismo.png";
+import SiteCoffeeDelivery from "../assets/projects/site-coffee-delivery.png";
+import SiteToDoList from "../assets/projects/site-to-do-list.png";
+import SiteValidatedLogin from "../assets/projects/site-react-validated-login.png";
 import ProjectCard from "./ProjectCard.jsx";
 
 export default function Projects() {
