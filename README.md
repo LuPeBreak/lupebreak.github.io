@@ -1,4 +1,4 @@
-<h1 align="center"> Coffe Delivery </h1>
+<h1 align="center"> Site de Portfolio - LuPeBreak </h1>
 
 <p align="center">
   Voce pode encontrar demo do projeto no github pages nesse <a href="https://lupebreak.github.io">Link</a>
