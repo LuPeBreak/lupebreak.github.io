@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.4dc880d2.css",
-    "main.js": "/static/js/main.de0697ba.js",
+    "main.js": "/static/js/main.d966c38a.js",
     "static/media/site-fruta-e-fruto.png": "/static/media/site-fruta-e-fruto.284480f14997c1bc3073.png",
-    "static/media/site-adit.png": "/static/media/site-adit.c9608c218aed59ee94c2.png",
     "static/media/site-portal-transaparencia-barra-mansa.png": "/static/media/site-portal-transaparencia-barra-mansa.1749ee71da013a9ee98e.png",
     "static/media/site-fabrica-oculos.png": "/static/media/site-fabrica-oculos.615b0b61e07aaabdf9b4.png",
     "static/media/site-portal-servidor.png": "/static/media/site-portal-servidor.615b0b61e07aaabdf9b4.png",
     "static/media/site-coffee-delivery.png": "/static/media/site-coffee-delivery.436d187a4c800a948d4f.png",
+    "static/media/site-adit.png": "/static/media/site-adit.fdd5f50a0e0bca350431.png",
     "static/media/site-barra-mansa.png": "/static/media/site-barra-mansa.670ec57c18b167dcd5c8.png",
     "static/media/profile-pic.png": "/static/media/profile-pic.56ef507f252ebb4d8dda.png",
     "static/media/site-gip.png": "/static/media/site-gip.43b752a0ee5555308603.png",
@@ -26,10 +26,10 @@
     "static/media/blob.svg": "/static/media/blob.2b997e64300771d58776837beae373fd.svg",
     "index.html": "/index.html",
     "main.4dc880d2.css.map": "/static/css/main.4dc880d2.css.map",
-    "main.de0697ba.js.map": "/static/js/main.de0697ba.js.map"
+    "main.d966c38a.js.map": "/static/js/main.d966c38a.js.map"
   },
   "entrypoints": [
     "static/css/main.4dc880d2.css",
-    "static/js/main.de0697ba.js"
+    "static/js/main.d966c38a.js"
   ]
 }
