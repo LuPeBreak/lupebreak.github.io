@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dc880d2.css",
-    "main.js": "/static/js/main.8c192b79.js",
+    "main.css": "/static/css/main.386b9949.css",
+    "main.js": "/static/js/main.98f0bd48.js",
     "static/media/site-fruta-e-fruto.png": "/static/media/site-fruta-e-fruto.284480f14997c1bc3073.png",
     "static/media/site-portal-transaparencia-barra-mansa.png": "/static/media/site-portal-transaparencia-barra-mansa.1749ee71da013a9ee98e.png",
     "static/media/site-portal-servidor.png": "/static/media/site-portal-servidor.ad35d3a4b50317afc69d.png",
@@ -13,23 +13,14 @@
     "static/media/site-fabrica-oculos.png": "/static/media/site-fabrica-oculos.1180bf0ff147bb38b546.png",
     "static/media/site-flex-turismo.png": "/static/media/site-flex-turismo.c9fc2dfa3000b3061813.png",
     "static/media/site-to-do-list.png": "/static/media/site-to-do-list.7df76ddac1d5956c89e1.png",
-    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/logo-cinza.png": "/static/media/logo-cinza.b98743882ef2f59c831c.png",
-    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/site-react-validated-login.png": "/static/media/site-react-validated-login.d0108a3169760dd0b23a.png",
-    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/blob.svg": "/static/media/blob.2b997e64300771d58776837beae373fd.svg",
     "index.html": "/index.html",
-    "main.4dc880d2.css.map": "/static/css/main.4dc880d2.css.map",
-    "main.8c192b79.js.map": "/static/js/main.8c192b79.js.map"
+    "main.386b9949.css.map": "/static/css/main.386b9949.css.map",
+    "main.98f0bd48.js.map": "/static/js/main.98f0bd48.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dc880d2.css",
-    "static/js/main.8c192b79.js"
+    "static/css/main.386b9949.css",
+    "static/js/main.98f0bd48.js"
   ]
 }
