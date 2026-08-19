@@ -13,51 +13,99 @@ import SiteGip from "../assets/projects/site-gip.png";
 import SitePortalServidor from "../assets/projects/site-portal-servidor.png";
 import SiteAdit from "../assets/projects/site-adit.png";
 import SiteFabricaOculos from "../assets/projects/site-fabrica-oculos.png";
+import SiteNBPSAdminTemplate from "../assets/projects/site-nbps-admin-template.png";
+import SiteApfam from "../assets/projects/site-apfam.webp";
+import SiteApoiaDev from "../assets/projects/site-apoia-dev.png";
 
 const PROJECTS = [
   {
     title: "Fábrica de Óculos",
-    subtitle: "Sistema de óculos gratuito",
+    subtitle: "Gestão de produção e pedidos • Uso diário pela equipe",
     img: SiteFabricaOculos,
     link: "https://fabricadeoculos.barramansa.rj.gov.br/",
     codigo: null, // repo privado
     category: "Profissionais",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Better Auth", "Shadcn"],
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Better Auth"],
     featured: true,
   },
   {
     title: "GIP",
-    subtitle: "Gestão Interna de Processos",
+    subtitle: "Processos de licitação • Desenvolvimento colaborativo",
     img: SiteGip,
     link: "https://gip.barramansa.rj.gov.br/",
     codigo: null, // repo privado
     category: "Profissionais",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Better Auth", "Shadcn"],
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Better Auth"],
     featured: true,
   },
   {
     title: "Portal do Servidor",
-    subtitle: "Portal para servidores públicos",
+    subtitle: "Acesso a sistemas e serviços públicos",
     img: SitePortalServidor,
     link: "https://portaldoservidor.barramansa.rj.gov.br/",
     codigo: null, // repo privado
     category: "Profissionais",
-    tech: ["React"],
+    tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui"],
     featured: true,
   },
   {
     title: "ADIT",
-    subtitle: "Administração de Ativos e TI",
+    subtitle: "Ativos e serviços de TI • Aguardando implantação",
     img: SiteAdit,
     link: "https://ti.barramansa.rj.gov.br/",
     codigo: null, // repo privado
     category: "Profissionais",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Better Auth", "Shadcn"],
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Better Auth"],
     featured: true,
   },
   {
+    title: "Site de Barra Mansa",
+    subtitle: "Desenvolvimento e manutenção institucional",
+    img: SiteBarraMansa,
+    link: "https://www.barramansa.rj.gov.br/",
+    codigo: null, // repo cliente
+    category: "Profissionais",
+    tech: ["WordPress", "PHP", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    title: "Portal da Transparência",
+    subtitle: "Desenvolvimento e manutenção em WordPress",
+    img: SitePortalTransparencia,
+    link: "https://portaltransparencia.barramansa.rj.gov.br/",
+    codigo: null,
+    category: "Profissionais",
+    tech: ["WordPress", "PHP", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    title: "NBPS Admin Template",
+    subtitle: "Experimental admin starter em evolução",
+    img: SiteNBPSAdminTemplate,
+    link: null,
+    codigo: "https://github.com/LuPeBreak/nbps-admin-template",
+    category: "Pessoais / Experimentos",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "Better Auth"],
+  },
+  {
+    title: "APFAM",
+    subtitle: "Portal de divulgação — projeto pessoal",
+    img: SiteApfam,
+    link: null,
+    codigo: "https://github.com/LuPeBreak/apfam",
+    category: "Pessoais / Experimentos",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "Better Auth"],
+  },
+  {
+    title: "Apoia.dev",
+    subtitle: "Projeto de estudo — plataforma de apoio financeiro",
+    img: SiteApoiaDev,
+    link: null,
+    codigo: "https://github.com/LuPeBreak/apoia-dev",
+    category: "Estudos",
+    tech: ["Next.js", "TypeScript", "Prisma", "Stripe", "Tailwind CSS"],
+  },
+  {
     title: "Coffee Delivery",
-    subtitle: "App de delivery de café",
+    subtitle: "Projeto de estudo — delivery de café",
     img: SiteCoffeeDelivery,
     link: "https://lupebreak.github.io/coffee-delivery/",
     codigo: "https://github.com/LuPeBreak/coffee-delivery",
@@ -65,26 +113,8 @@ const PROJECTS = [
     tech: ["React", "TypeScript"],
   },
   {
-    title: "Site de Barra Mansa",
-    subtitle: "Portal oficial do município",
-    img: SiteBarraMansa,
-    link: "https://www.barramansa.rj.gov.br/",
-    codigo: null, // repo cliente
-    category: "Profissionais",
-    tech: ["WordPress"],
-  },
-  {
-    title: "Portal da Transparência",
-    subtitle: "Transparência pública",
-    img: SitePortalTransparencia,
-    link: "https://portaltransparencia.barramansa.rj.gov.br/",
-    codigo: null,
-    category: "Profissionais",
-    tech: ["WordPress"],
-  },
-  {
     title: "Fruta e Fruto",
-    subtitle: "Site de receitas saudáveis",
+    subtitle: "Projeto de estudo — site de receitas",
     img: SiteFrutaEFruto,
     link: "https://lupebreak.github.io/Fruta-e-Fruto/",
     codigo: "https://github.com/LuPeBreak/Fruta-e-Fruto",
@@ -93,7 +123,7 @@ const PROJECTS = [
   },
   {
     title: "To Do List",
-    subtitle: "Lista de tarefas",
+    subtitle: "Projeto de estudo — lista de tarefas",
     img: SiteToDoList,
     link: "https://lupebreak.github.io/To-Do-List-Ignite-challenge/",
     codigo: "https://github.com/LuPeBreak/To-Do-List-Ignite-challenge",
@@ -102,7 +132,7 @@ const PROJECTS = [
   },
   {
     title: "Flex Turismo",
-    subtitle: "Site de agência de turismo",
+    subtitle: "Projeto de estudo — site de turismo",
     img: SiteFlexTurismo,
     link: "https://lupebreak.github.io/flex-turismo/",
     codigo: "https://github.com/LuPeBreak/flex-turismo",
@@ -111,7 +141,7 @@ const PROJECTS = [
   },
   {
     title: "React Validated Login",
-    subtitle: "Login com validação",
+    subtitle: "Projeto de estudo — login com validação",
     img: SiteValidatedLogin,
     link: "https://lupebreak.github.io/react-validated-login-desafio-4/",
     codigo: "https://github.com/LuPeBreak/react-validated-login-desafio-4",
@@ -120,7 +150,7 @@ const PROJECTS = [
   },
 ];
 
-const CATEGORIES = ["Todos", "Profissionais", "Estudos"];
+const CATEGORIES = ["Todos", "Profissionais", "Pessoais / Experimentos", "Estudos"];
 
 export default function Projects() {
   const [filter, setFilter] = useState("Todos");
@@ -128,7 +158,7 @@ export default function Projects() {
   const filtered =
     filter === "Todos"
       ? PROJECTS
-      : PROJECTS.filter((p) => p.category === filter);
+      : PROJECTS.filter((project) => project.category === filter);
 
   return (
     <div
@@ -162,18 +192,18 @@ export default function Projects() {
           transition={{ duration: 0.4, delay: 0.2 }}
           className="flex gap-3 flex-wrap"
         >
-          {CATEGORIES.map((cat) => (
+          {CATEGORIES.map((category) => (
             <button
-              key={cat}
-              onClick={() => setFilter(cat)}
+              key={category}
+              onClick={() => setFilter(category)}
               className={
                 "px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 " +
-                (filter === cat
+                (filter === category
                   ? "bg-gradient-to-r from-cosmic-purple to-cosmic-cyan text-white shadow-[0_0_20px_rgba(124,58,237,0.4)]"
                   : "glass-card text-cosmic-lightText hover:text-cosmic-white hover:border-cosmic-purple/30")
               }
             >
-              {cat}
+              {category}
             </button>
           ))}
         </motion.div>
@@ -186,85 +216,92 @@ export default function Projects() {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           <AnimatePresence mode="popLayout">
-            {filtered.map((project, idx) => (
-              <motion.div
-                key={project.title}
-                layout
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
-                transition={{ duration: 0.4, delay: idx * 0.05 }}
-                whileHover={{ y: -8 }}
-                className={
-                  "group relative glass-card overflow-hidden hover:neon-border transition-all duration-300 " +
-                  (project.featured ? "sm:col-span-2 lg:col-span-1" : "")
-                }
-              >
-                {/* Imagem com aspect ratio fixo */}
-                <div className="relative aspect-video overflow-hidden">
-                  <img
-                    src={project.img}
-                    alt={project.title}
-                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                  {/* Overlay gradient no hover */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-cosmic-bg via-cosmic-bg/50 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
-                  {/* Botões que aparecem no hover */}
-                  <div
-                    className={
-                      "absolute inset-0 flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-cosmic-bg/60 backdrop-blur-sm " +
-                      (project.codigo ? "" : "px-4")
-                    }
-                  >
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
+            {filtered.map((project, idx) => {
+              const hasSite = Boolean(project.link);
+              const hasCode = Boolean(project.codigo);
+
+              return (
+                <motion.div
+                  key={project.title}
+                  layout
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.9 }}
+                  transition={{ duration: 0.4, delay: idx * 0.05 }}
+                  whileHover={{ y: -8 }}
+                  className={
+                    "group relative glass-card overflow-hidden hover:neon-border transition-all duration-300 " +
+                    (project.featured ? "sm:col-span-2 lg:col-span-1" : "")
+                  }
+                >
+                  {/* Imagem com aspect ratio fixo */}
+                  <div className="relative aspect-video overflow-hidden">
+                    <img
+                      src={project.img}
+                      alt={project.title}
+                      className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
+                      loading="lazy"
+                    />
+                    {/* Overlay gradient no hover */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-cosmic-bg via-cosmic-bg/50 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
+                    {/* Botões que aparecem no hover */}
+                    <div
                       className={
-                        "flex items-center gap-2 px-4 py-2.5 rounded-full bg-gradient-to-r from-cosmic-purple to-cosmic-cyan text-white font-medium text-sm hover:scale-105 transition-transform " +
-                        (project.codigo ? "" : "mx-auto")
+                        "absolute inset-0 flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-cosmic-bg/60 backdrop-blur-sm " +
+                        (hasSite && hasCode ? "" : "px-4")
                       }
                     >
-                      <ExternalLink size={16} />
-                      Ver site
-                    </a>
-                    {project.codigo && (
-                      <a
-                        href={project.codigo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2.5 rounded-full glass-card text-cosmic-white font-medium text-sm hover:border-cosmic-cyan hover:text-cosmic-cyan transition-all"
-                      >
-                        <Code2 size={16} />
-                        Código
-                      </a>
-                    )}
+                      {hasSite && (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={
+                            "flex items-center gap-2 px-4 py-2.5 rounded-full bg-gradient-to-r from-cosmic-purple to-cosmic-cyan text-white font-medium text-sm hover:scale-105 transition-transform " +
+                            (hasCode ? "" : "mx-auto")
+                          }
+                        >
+                          <ExternalLink size={16} />
+                          Ver site
+                        </a>
+                      )}
+                      {hasCode && (
+                        <a
+                          href={project.codigo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 px-4 py-2.5 rounded-full glass-card text-cosmic-white font-medium text-sm hover:border-cosmic-cyan hover:text-cosmic-cyan transition-all"
+                        >
+                          <Code2 size={16} />
+                          {hasSite ? "Código" : "Ver código"}
+                        </a>
+                      )}
+                    </div>
                   </div>
-                </div>
 
-                {/* Info */}
-                <div className="p-5">
-                  <h3 className="text-lg font-display font-bold text-cosmic-white mb-1 group-hover:gradient-text transition-all">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm text-cosmic-muted mb-3">
-                    {project.subtitle}
-                  </p>
-                  {/* Tech badges */}
-                  <div className="flex flex-wrap gap-2">
-                    {project.tech.map((t) => (
-                      <span
-                        key={t}
-                        className="text-xs px-2.5 py-1 rounded-full bg-cosmic-purple/10 text-cosmic-cyan border border-cosmic-purple/20 font-mono"
-                      >
-                        {t}
-                      </span>
-                    ))}
+                  {/* Info */}
+                  <div className="p-5">
+                    <h3 className="text-lg font-display font-bold text-cosmic-white mb-1 group-hover:gradient-text transition-all">
+                      {project.title}
+                    </h3>
+                    <p className="text-sm text-cosmic-muted mb-3">
+                      {project.subtitle}
+                    </p>
+                    {/* Tech badges */}
+                    <div className="flex flex-wrap gap-2">
+                      {project.tech.map((technology) => (
+                        <span
+                          key={technology}
+                          className="text-xs px-2.5 py-1 rounded-full bg-cosmic-purple/10 text-cosmic-cyan border border-cosmic-purple/20 font-mono"
+                        >
+                          {technology}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              );
+            })}
           </AnimatePresence>
         </motion.div>
       </div>

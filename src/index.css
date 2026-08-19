@@ -129,3 +129,35 @@
     filter: drop-shadow(2px 8px 20px #7c3aed) drop-shadow(0 0 40px rgba(124, 58, 237, 0.3));
     animation: glow-purple 4s ease-in-out infinite;
   }
+
+  /* Mantém o hero inteiro na viewport em notebooks e telas menores */
+  @media (min-width: 1024px) and (max-height: 820px) {
+    .hero-container {
+      padding-top: 4.5rem;
+      padding-bottom: 1rem;
+    }
+
+    .hero-visual {
+      height: 220px;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      background-size: 480px 190px !important;
+    }
+
+    .hero-title,
+    .hero-subtitle {
+      font-size: 2.75rem !important;
+      line-height: 1.05 !important;
+    }
+
+    .hero-description {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      font-size: 0.95rem !important;
+      line-height: 1.45 !important;
+    }
+
+    .hero-actions {
+      margin-top: 0.25rem;
+    }
+  }

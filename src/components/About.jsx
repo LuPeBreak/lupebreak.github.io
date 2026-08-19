@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Coffee, Code, Heart, Trophy, Zap } from "lucide-react";
 
 const STATS = [
-  { icon: Code, value: "11+", label: "Projetos" },
+  { icon: Code, value: "14", label: "Projetos" },
   { icon: Trophy, value: "1º", label: "Hackathon" },
   { icon: Coffee, value: "∞", label: "Cafés" },
   { icon: Heart, value: "100%", label: "Dedicação" },
@@ -48,15 +48,23 @@ export default function About() {
               cursei bacharelado em Sistemas de Informação na UBM.
             </p>
             <p className="text-cosmic-lightText leading-relaxed text-lg mb-4">
-              Durante a faculdade, participei de diversos eventos como GDG (Google
-              Developer Group) e de um Hackathon onde, com alguns amigos,
-              saí vitorioso. Foi aí que percebi: <span className="gradient-text font-semibold">construir coisas que importam</span> é o que me move.
+              Durante a faculdade, participei de diversos eventos como GDG
+              (Google Developer Group) e de um Hackathon onde, com alguns
+              amigos, saí vitorioso. Foi aí que percebi:{" "}
+              <span className="gradient-text font-semibold">
+                construir coisas que importam
+              </span>{" "}
+              é o que me move.
             </p>
             <p className="text-cosmic-lightText leading-relaxed text-lg">
-              Hoje, trabalho na Prefeitura de Barra Mansa com painéis
-              administrativos em React/Next.js/TypeScript. Nos tempos livres,
-              gosto de mangás, séries, jogos e de estar com amigos. Adoro me
-              desafiar — a sensação de vencer uma grande dificuldade é viciante.
+              Hoje, trabalho na Prefeitura de Barra Mansa desenvolvendo e
+              mantendo sistemas internos e serviços públicos digitais com
+              React, Next.js, TypeScript, Node.js e PostgreSQL. Também participo
+              do levantamento de requisitos com diferentes setores,
+              transformando necessidades operacionais em soluções de software.
+              Nos tempos livres, gosto de mangás, séries, jogos e de estar com
+              amigos. Adoro me desafiar — a sensação de vencer uma grande
+              dificuldade é viciante.
               <Zap className="inline ml-1 text-cosmic-cyan" size={18} />
             </p>
           </motion.div>
