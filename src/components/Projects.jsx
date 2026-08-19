@@ -16,6 +16,16 @@ import SiteFabricaOculos from "../assets/projects/site-fabrica-oculos.png";
 
 const PROJECTS = [
   {
+    title: "Fábrica de Óculos",
+    subtitle: "Sistema de óculos gratuito",
+    img: SiteFabricaOculos,
+    link: "https://fabricadeoculos.barramansa.rj.gov.br/",
+    codigo: null, // repo privado
+    category: "Profissionais",
+    tech: ["Next.js", "Prisma", "PostgreSQL", "Better Auth", "Shadcn"],
+    featured: true,
+  },
+  {
     title: "GIP",
     subtitle: "Gestão Interna de Processos",
     img: SiteGip,
@@ -44,15 +54,6 @@ const PROJECTS = [
     category: "Profissionais",
     tech: ["Next.js", "Prisma", "PostgreSQL", "Better Auth", "Shadcn"],
     featured: true,
-  },
-  {
-    title: "Fábrica de Óculos",
-    subtitle: "Sistema de óculos gratuito",
-    img: SiteFabricaOculos,
-    link: "https://fabricadeoculos.barramansa.rj.gov.br/",
-    codigo: null, // repo privado
-    category: "Profissionais",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Better Auth", "Shadcn"],
   },
   {
     title: "Coffee Delivery",
