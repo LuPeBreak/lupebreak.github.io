@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7f27826.css",
-    "main.js": "/static/js/main.a50a27c3.js",
+    "main.css": "/static/css/main.3c332576.css",
+    "main.js": "/static/js/main.c66aeb0a.js",
     "static/media/site-fruta-e-fruto.png": "/static/media/site-fruta-e-fruto.284480f14997c1bc3073.png",
     "static/media/site-portal-transaparencia-barra-mansa.png": "/static/media/site-portal-transaparencia-barra-mansa.1749ee71da013a9ee98e.png",
     "static/media/site-portal-servidor.png": "/static/media/site-portal-servidor.9d81e829f621c616e1fe.png",
@@ -17,13 +17,13 @@
     "static/media/site-flex-turismo.png": "/static/media/site-flex-turismo.c9fc2dfa3000b3061813.png",
     "static/media/site-to-do-list.png": "/static/media/site-to-do-list.7df76ddac1d5956c89e1.png",
     "static/media/site-react-validated-login.png": "/static/media/site-react-validated-login.d0108a3169760dd0b23a.png",
-    "static/media/blob.svg": "/static/media/blob.2b997e64300771d58776837beae373fd.svg",
+    "static/media/blob.svg": "/static/media/blob.3d2c0687d0859c15beafe655f03b663a.svg",
     "index.html": "/index.html",
-    "main.c7f27826.css.map": "/static/css/main.c7f27826.css.map",
-    "main.a50a27c3.js.map": "/static/js/main.a50a27c3.js.map"
+    "main.3c332576.css.map": "/static/css/main.3c332576.css.map",
+    "main.c66aeb0a.js.map": "/static/js/main.c66aeb0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7f27826.css",
-    "static/js/main.a50a27c3.js"
+    "static/css/main.3c332576.css",
+    "static/js/main.c66aeb0a.js"
   ]
 }
