@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c7d01c7.css",
-    "main.js": "/static/js/main.bfcf3a8f.js",
+    "main.css": "/static/css/main.c7f27826.css",
+    "main.js": "/static/js/main.a50a27c3.js",
     "static/media/site-fruta-e-fruto.png": "/static/media/site-fruta-e-fruto.284480f14997c1bc3073.png",
-    "static/media/site-portal-servidor.png": "/static/media/site-portal-servidor.803a6ea63778c6ddfd49.png",
     "static/media/site-portal-transaparencia-barra-mansa.png": "/static/media/site-portal-transaparencia-barra-mansa.1749ee71da013a9ee98e.png",
+    "static/media/site-portal-servidor.png": "/static/media/site-portal-servidor.9d81e829f621c616e1fe.png",
     "static/media/site-gip.png": "/static/media/site-gip.87272d90e476767c9133.png",
     "static/media/site-coffee-delivery.png": "/static/media/site-coffee-delivery.436d187a4c800a948d4f.png",
+    "static/media/site-apfam.webp": "/static/media/site-apfam.e691289ef2a11c763460.webp",
     "static/media/site-adit.png": "/static/media/site-adit.fdd5f50a0e0bca350431.png",
     "static/media/site-barra-mansa.png": "/static/media/site-barra-mansa.670ec57c18b167dcd5c8.png",
     "static/media/profile-pic.png": "/static/media/profile-pic.56ef507f252ebb4d8dda.png",
     "static/media/site-fabrica-oculos.png": "/static/media/site-fabrica-oculos.1180bf0ff147bb38b546.png",
+    "static/media/site-nbps-admin-template.png": "/static/media/site-nbps-admin-template.b9b89be70f5bfdf6b682.png",
+    "static/media/site-apoia-dev.png": "/static/media/site-apoia-dev.299b6f8c1523f68b658a.png",
     "static/media/site-flex-turismo.png": "/static/media/site-flex-turismo.c9fc2dfa3000b3061813.png",
     "static/media/site-to-do-list.png": "/static/media/site-to-do-list.7df76ddac1d5956c89e1.png",
     "static/media/site-react-validated-login.png": "/static/media/site-react-validated-login.d0108a3169760dd0b23a.png",
     "static/media/blob.svg": "/static/media/blob.2b997e64300771d58776837beae373fd.svg",
     "index.html": "/index.html",
-    "main.5c7d01c7.css.map": "/static/css/main.5c7d01c7.css.map",
-    "main.bfcf3a8f.js.map": "/static/js/main.bfcf3a8f.js.map"
+    "main.c7f27826.css.map": "/static/css/main.c7f27826.css.map",
+    "main.a50a27c3.js.map": "/static/js/main.a50a27c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c7d01c7.css",
-    "static/js/main.bfcf3a8f.js"
+    "static/css/main.c7f27826.css",
+    "static/js/main.a50a27c3.js"
   ]
 }
