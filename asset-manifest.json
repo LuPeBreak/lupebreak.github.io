@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.386b9949.css",
-    "main.js": "/static/js/main.98f0bd48.js",
+    "main.css": "/static/css/main.5c7d01c7.css",
+    "main.js": "/static/js/main.bfcf3a8f.js",
     "static/media/site-fruta-e-fruto.png": "/static/media/site-fruta-e-fruto.284480f14997c1bc3073.png",
+    "static/media/site-portal-servidor.png": "/static/media/site-portal-servidor.803a6ea63778c6ddfd49.png",
     "static/media/site-portal-transaparencia-barra-mansa.png": "/static/media/site-portal-transaparencia-barra-mansa.1749ee71da013a9ee98e.png",
-    "static/media/site-portal-servidor.png": "/static/media/site-portal-servidor.ad35d3a4b50317afc69d.png",
     "static/media/site-gip.png": "/static/media/site-gip.87272d90e476767c9133.png",
     "static/media/site-coffee-delivery.png": "/static/media/site-coffee-delivery.436d187a4c800a948d4f.png",
     "static/media/site-adit.png": "/static/media/site-adit.fdd5f50a0e0bca350431.png",
@@ -16,11 +16,11 @@
     "static/media/site-react-validated-login.png": "/static/media/site-react-validated-login.d0108a3169760dd0b23a.png",
     "static/media/blob.svg": "/static/media/blob.2b997e64300771d58776837beae373fd.svg",
     "index.html": "/index.html",
-    "main.386b9949.css.map": "/static/css/main.386b9949.css.map",
-    "main.98f0bd48.js.map": "/static/js/main.98f0bd48.js.map"
+    "main.5c7d01c7.css.map": "/static/css/main.5c7d01c7.css.map",
+    "main.bfcf3a8f.js.map": "/static/js/main.bfcf3a8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.386b9949.css",
-    "static/js/main.98f0bd48.js"
+    "static/css/main.5c7d01c7.css",
+    "static/js/main.bfcf3a8f.js"
   ]
 }
