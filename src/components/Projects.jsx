@@ -82,16 +82,16 @@ const PROJECTS = [
     img: SiteNBPSAdminTemplate,
     link: null,
     codigo: "https://github.com/LuPeBreak/nbps-admin-template",
-    category: "Pessoais / Experimentos",
+    category: "Projetos próprios",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "Better Auth"],
   },
   {
     title: "APFAM",
-    subtitle: "Portal de divulgação — projeto pessoal",
+    subtitle: "Portal de divulgação para associação de produtores",
     img: SiteApfam,
     link: null,
     codigo: "https://github.com/LuPeBreak/apfam",
-    category: "Pessoais / Experimentos",
+    category: "Profissionais",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "Better Auth"],
   },
   {
@@ -150,7 +150,7 @@ const PROJECTS = [
   },
 ];
 
-const CATEGORIES = ["Todos", "Profissionais", "Pessoais / Experimentos", "Estudos"];
+const CATEGORIES = ["Todos", "Profissionais", "Projetos próprios", "Estudos"];
 
 export default function Projects() {
   const [filter, setFilter] = useState("Todos");
@@ -281,7 +281,7 @@ export default function Projects() {
 
                   {/* Info */}
                   <div className="p-5">
-                    <h3 className="text-lg font-display font-bold text-cosmic-white mb-1 group-hover:gradient-text transition-all">
+                    <h3 className="text-lg font-display font-bold text-cosmic-white mb-1 group-hover:text-cosmic-cyan transition-colors duration-200">
                       {project.title}
                     </h3>
                     <p className="text-sm text-cosmic-muted mb-3">

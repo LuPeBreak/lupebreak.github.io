@@ -94,7 +94,7 @@ export default function Contact() {
                 </div>
                 {/* Texto */}
                 <div className="flex-1 min-w-0">
-                  <p className="text-cosmic-white font-semibold group-hover:gradient-text transition-all">
+                  <p className="text-cosmic-white font-semibold group-hover:text-cosmic-cyan transition-colors duration-200">
                     {contact.name}
                   </p>
                   <p className="text-cosmic-muted text-sm truncate group-hover:text-cosmic-cyan transition-colors">

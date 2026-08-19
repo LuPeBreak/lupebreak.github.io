@@ -191,7 +191,7 @@ export default function Navbar() {
                 >
                   <button
                     onClick={() => handleClick(item.target)}
-                    className="text-3xl font-display text-cosmic-white hover:gradient-text transition-all"
+                    className="text-3xl font-display text-cosmic-white hover:text-cosmic-cyan transition-colors duration-200"
                   >
                     {item.name}
                   </button>
